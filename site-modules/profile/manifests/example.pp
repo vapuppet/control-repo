@@ -1,3 +1,2 @@
 class profile::example {
-
 }
