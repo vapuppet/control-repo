@@ -16,4 +16,3 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'thias-vsftpd', '0.2.1'
