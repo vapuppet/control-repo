@@ -2,7 +2,7 @@ class profile::vsftpd::mod::vsftpdmod1 {
   include vsftpd
 }
 
-class { 'vsftpd':
+class { 'vsftpdmod1':
   anonymous_enable  => 'YES',
   write_enable      => 'YES',
   ftpd_banner       => 'Marmotte FTP Server Modified',
