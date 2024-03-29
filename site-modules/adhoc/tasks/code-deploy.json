@@ -1,6 +1,13 @@
 {
-  "name": "code-deploy",
+  "name": "codedeploy",
   "description": "provisions vm in terraform and adds agent to server",
   "private": true,
   "input_method": "environment"
+  "parameters": {
+    "days": {
+      "description": "Specify environment to deploy to",
+      "type": string,
+      "sensitive": false
+    }
+  }
 }
