@@ -4,7 +4,7 @@
   "private": true,
   "input_method": "environment"
   "parameters": {
-    "days": {
+    "environment": {
       "description": "Specify environment to deploy to",
       "type": string,
       "sensitive": false
