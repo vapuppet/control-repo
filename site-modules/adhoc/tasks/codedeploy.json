@@ -1,13 +1,13 @@
 {
-    "name": "codedeploy",
-    "description": "deploys puppet code from repo",
-    "private": true,
-    "input_method": "environment",
-    "parameters": {
-      "environment": {
-        "description": "what environment",
-        "type": "string",
-        "sensitive": false
-      }
+  "name": "codedeploy",
+  "description": "deploys puppet code from repo",
+  "private": true,
+  "input_method": "environment",
+  "parameters": {
+    "environment": {
+      "description": "what environment",
+      "type": "string",
+      "sensitive": false
     }
   }
+}
