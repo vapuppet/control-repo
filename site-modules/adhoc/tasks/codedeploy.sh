@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo puppet code deploy production --wait
+sudo puppet code deploy $environment --wait
