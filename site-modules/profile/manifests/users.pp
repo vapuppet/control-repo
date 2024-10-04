@@ -4,3 +4,4 @@ user { 'victor':
   provider => 'useradd',
   }
 }
+#
