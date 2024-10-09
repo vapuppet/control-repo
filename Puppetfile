@@ -6,6 +6,11 @@ forge 'https://forge.puppet.com'
 #mod 'puppetlabs/stdlib',  '7.0.1'
 #mod 'puppetlabs/concat',  '7.0.1'
 mod 'tspy-code_deploy', '1.0.4'
+mod 'puppet-prometheus', '15.0.0'
+mod 'puppet-grafana', '14.1.0'
+mod 'puppetlabs-stdlib', '9.6.0'
+mod 'puppet-archive', '7.1.0'
+mod 'puppet-systemd', '7.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
